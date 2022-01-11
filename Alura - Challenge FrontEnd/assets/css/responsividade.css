@@ -358,11 +358,13 @@ button {
     }
 
 
-
     .container {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        padding: 16px;
     }
+   
 
     .cabecalho__search {
         display: flex;
@@ -384,25 +386,12 @@ button {
     .cabecalho__perfil {
         visibility: hidden;
     }
-    .menu-lateral--ativo {
-        display: flex;
-        right: 0;
-        transition: .25s;
-        position: absolute;
-        top: 100px;
-        margin-right: 10px;
-    }
+
 
     .menu__navegacao {
         display:none;
     }
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 16px;
-    }
 
     /* ------------------------------------------------- E D I T O R  D E  C Ó D I G O - T A B L E T----------------------------------------------- */
 
