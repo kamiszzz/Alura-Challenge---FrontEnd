@@ -94,21 +94,22 @@
 
     width: 100%;
     height: 100%;
-   
     background: #6BD1FF;
     border-radius: 8px;
+    padding: 16px;
 }
 
 .editordecodigo {
 
   
-    height: 90%;
-    width: 90%;
+    height: 95%;
+    width: 95%;
     background: #141414;
     box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
     border-radius: 8px;
     white-space: pre-wrap;
-    margin: 32px;
+    margin-left: 17px;
+    margin-top: 8px;
 
     
 }
@@ -268,6 +269,7 @@ option:checked {
     border-radius: 8px;
     border: none;
     margin-top: 40px;
+    
     opacity: 0.7;
     transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
