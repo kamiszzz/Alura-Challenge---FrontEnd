@@ -1,0 +1,107 @@
+body {
+    background-color: #051d3b;
+    font-family: Inter;
+    color: #ffffff;
+    
+
+}
+/* ------------------------------------------------------------------- MENU MOBILE------------------------------------------------------------------------- */
+.menu-lateral {
+    display: none;
+    padding: 16px;
+    flex-direction: column;
+    background-color:#2D415B;
+    width: 254px;
+    height: 571px;
+    position: absolute;
+    transition: .25s;
+    border-radius: 8px;
+}
+
+.menu__perfil {
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    color: #FFFFFF;
+    padding: 8px 32px;
+    margin-top: 64px;
+    border-top: 1px solid #FFFFFF
+ 
+
+}
+
+.menu__perfil::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/PhotoUsuario.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img__code {
+
+    margin-right: 8px;
+    padding: 4px;
+    opacity: 0.5;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+
+}
+
+.img__code:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+.img__comunidade {
+    margin-right: 8px;
+    margin-top: 3px;
+    padding: 4px;
+    opacity: 0.5;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+
+}
+
+.img__comunidade:hover { 
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+.menuicon {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+
+.menu__busca {
+    display: none;
+    font-family: Inter;
+    font-style: normal;
+    opacity: 0.64;
+    color: white;
+    width: 287px;
+    height: 55px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
