@@ -23,6 +23,8 @@
   
 }
 
+/* ------------------------------------------------------------- M E N U - D E S K T O P-------------------------------------------------------------- */
+
 .menu__titulo {
     color: white;
     text-transform: uppercase;
@@ -85,6 +87,8 @@
     -webkit-transition: opacity .55s ease-in-out;
 }
 
+/* ------------------------------------------- E D I T O R  D E  C Ó D I G O - D E S K T O P--------------------------------------------------------- */
+
 .code__divisao {
     display: flex;
     flex-direction: column;
@@ -146,7 +150,7 @@
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
 }
-
+/* ----------------------------------- I N F O R M A Ç Õ E S  P R O J E T O - D E S K T O P----------------------------------------------------------- */
 .info__divisao {
     display: flex;
     flex-direction: column;
@@ -330,7 +334,7 @@ button {
     .menu__navegacao {
         display:none;
     }
-
+/* ---------------------------------------------------- M E N U - T A B L E T----------------------------------------------------------------------- */
 
     .menu-lateral--ativo {
         display: flex;
@@ -346,6 +350,8 @@ button {
         display: flex;
 
     }
+
+
 
     .container {
         display: flex;
@@ -391,6 +397,8 @@ button {
         justify-content: space-between;
         padding: 16px;
     }
+
+    /* ------------------------------------------------- E D I T O R  D E  C Ó D I G O - T A B L E T----------------------------------------------- */
 
     .code__divisao {
         display: flex;
@@ -635,6 +643,8 @@ button {
     .cabecalho__perfil {
         visibility: hidden;
     }
+
+    /* ---------------------------------------------------------- M E N U - M O B I L E ------------------------------------------------------------- */
     .menu-lateral--ativo {
         display: flex;
         right: 0;
@@ -654,7 +664,7 @@ button {
         justify-content: space-between;
         padding: 16px;
     }
-
+/* ----------------------------------------------------- E D I T O R  D E  C Ó D I G O - M O B I L E ------------------------------------------------- */
     .code__divisao {
         display: flex;
         flex-direction: column;
