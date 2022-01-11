@@ -64,20 +64,11 @@
 
 .iconeditor {
     margin-right: 8px;
-    opacity: 0.5;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-    
+   
 }
 
 
-.iconeditor:hover {
-    opacity: 1.0;
-    transition: opacity .55s ease-in-out;
-    -moz-transition: opacity .55s ease-in-out;
-    -webkit-transition: opacity .55s ease-in-out;
-}
+
   
 .iconcomunidade {
     margin-right: 8px;
@@ -171,7 +162,9 @@
 .info__divisao {
     display: flex;
     flex-direction: column;
-   padding: 16px;
+    padding: 16px;
+   
+  
     
 }
 
@@ -188,7 +181,7 @@
 
 #nomedoprojeto {
    
-    padding-left: 4%;
+   
     font-family: Inter;
     color: #ffffff;
     width: 100%;
@@ -204,7 +197,6 @@
 
 #descricaoprojeto {
     padding-top: 4%;
-    padding-left: 4%;
     font-family: Inter;
     color: #ffffff;
     width: 100%;
@@ -326,6 +318,8 @@ button {
     transition: opacity .55s ease-in-out;
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
+}
+
 }
     
 
@@ -485,7 +479,17 @@ button {
     }
 
 /* ------------------------------------------------------------------------- INFORMAÇÕES ------------------------------------------------------------ */
+  .info__divisao {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+   
+  
+    
+  }
+
     .seuprojeto {
+    
         color: #ffffff;
         text-transform: uppercase;
         line-height: 18px;
