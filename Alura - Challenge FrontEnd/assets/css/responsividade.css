@@ -441,6 +441,15 @@ button {
     
         
     }
+
+    .preview {
+        display: block;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        height: 100%;
+        white-space: pre-wrap;
+    }
     
     .botao {
     
@@ -701,9 +710,15 @@ button {
         border-radius: 8px;
         white-space: pre-wrap;
         margin-left: 18px;
-       
-    
-        
+    }
+
+    .preview {
+        display: block;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        height: 100%;
+        white-space: pre-wrap;
     }
     
     .botao {
