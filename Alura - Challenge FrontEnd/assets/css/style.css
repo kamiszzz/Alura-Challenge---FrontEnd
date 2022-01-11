@@ -45,19 +45,9 @@ body {
 
     margin-right: 8px;
     padding: 4px;
-    opacity: 0.5;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
 
 }
 
-.img__code:hover {
-    opacity: 1.0;
-    transition: opacity .55s ease-in-out;
-    -moz-transition: opacity .55s ease-in-out;
-    -webkit-transition: opacity .55s ease-in-out;
-}
 
 .img__comunidade {
     margin-right: 8px;
