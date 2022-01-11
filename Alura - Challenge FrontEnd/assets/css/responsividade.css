@@ -93,7 +93,7 @@
 .retangulo {
 
     width: 100%;
-    height: 366PX;
+    height: 100%;
    
     background: #6BD1FF;
     border-radius: 8px;
@@ -102,8 +102,8 @@
 .editordecodigo {
 
   
-    height: 302px;
-    width: 688px;
+    height: 90%;
+    width: 90%;
     background: #141414;
     box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
     border-radius: 8px;
@@ -121,8 +121,8 @@
 }
 
 .highlight {
-    width: 100%;
-    height: 56px;
+    width: 752px;
+    height: 80px;
     border-radius: 8px;
     background: rgba(80, 129, 251, 0.08);
     border: none;
@@ -400,7 +400,7 @@ button {
     .retangulo {
 
         width: 100%;
-        height: 366px;
+        height: 100%;
 
        
         background: #6BD1FF;
@@ -410,13 +410,14 @@ button {
     .editordecodigo {
     
       
-        height: 302px;
+        height: 95%;
         width: 90%;
         background: #141414;
         box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
         border-radius: 8px;
         white-space: pre-wrap;
         margin: 32px;
+        margin-right: 20px;
     
         
     }
@@ -662,7 +663,7 @@ button {
     .retangulo {
       
         width: 100%;
-        height: 492PX;
+        height: 100%;
        
         background: #6BD1FF;
         border-radius: 8px;
@@ -671,12 +672,13 @@ button {
     .editordecodigo {
     
       
-        height: 428px;
-        width: 80%;
+        height: 95%;
+        width: 80%%;
         background: #141414;
         box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
         border-radius: 8px;
         white-space: pre-wrap;
+        margin-left: 18px;
        
     
         
