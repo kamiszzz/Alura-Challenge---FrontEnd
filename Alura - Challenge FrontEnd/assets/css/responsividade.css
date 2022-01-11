@@ -126,6 +126,16 @@
     
 }
 
+
+.preview {
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 100%;
+    white-space: pre-wrap;
+}
+
 .botao {
 
     width: 52px;
