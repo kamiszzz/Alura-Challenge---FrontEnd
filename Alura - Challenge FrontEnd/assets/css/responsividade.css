@@ -147,7 +147,7 @@
     width: 752px;
     height: 80px;
     border-radius: 8px;
-    background: rgba(80, 129, 251, 0.08);
+    background: rgba(80, 128, 251, 0.349);
     border: none;
     font-family: Inter;
     font-size: 16px;
@@ -155,7 +155,7 @@
     color: #FFFFFF;
     margin-top: 72px;
     opacity: 0.5;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
   
@@ -208,7 +208,7 @@
     font-family: Inter;
     color: #ffffff;
     width: 100%;
-    height: 80px;
+    height: 150px;
     background: rgba(255, 255, 255, 0.16);
     border-radius: 8px;
     opacity: 0.5;
@@ -244,7 +244,7 @@ option:not(:checked) {
 }  
    
 option:checked {
-    background-color: #051d3b;
+    background-color: #062447;
 } 
 
 #editordecor {
