@@ -1,2 +1,2 @@
-# Alura Challenge - FrontEnnd
+# Alura Challenge - FrontEnd
  Desafio Alura FrontEnd 
