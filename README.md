@@ -1,3 +1,4 @@
+![image](https://user-images.githubusercontent.com/93733085/149209718-2f8d6809-4ead-465a-b25b-8597c413d793.png)
 # AluraDev - Challenge
 Projeto desenvolvido durante o Alura Challenge de FrontEnd 
 >## OBJETIVO DO CHALLENGE:
