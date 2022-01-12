@@ -21,8 +21,8 @@ Para visualizar o projeto,
 + Um pouco sobre o figma
 
 >### PÁGINA DE EDIÇÃO
+
 ![EDITORDECODPAGINA](https://user-images.githubusercontent.com/93733085/149207533-6a0e1eef-1b2d-4f47-862a-ebef65187250.jpeg)
-###### TABLET
 
 >### PÁGINA DE COMUNIDADE
 
