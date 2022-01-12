@@ -24,4 +24,7 @@ Para visualizar o projeto,
 ![EDITORDECODPAGINA](https://user-images.githubusercontent.com/93733085/149207533-6a0e1eef-1b2d-4f47-862a-ebef65187250.jpeg)
 ###### TABLET
 ![image](https://user-images.githubusercontent.com/93733085/149207741-b831313b-064c-413b-aa8f-8619fd2abd25.png)
+###### MOBILE
+![image](https://user-images.githubusercontent.com/93733085/149209143-c570796a-3664-473a-8167-621a4a9fecc0.png)
+
 
