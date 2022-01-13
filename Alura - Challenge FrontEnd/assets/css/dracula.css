@@ -40,8 +40,32 @@ pre code.hljs {
   
   code.hljs {
     padding: 3px 5px;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: -9%;
+    overflow: scroll;
+    overflow-x:hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
   }
   
+  /* Track */
+  
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(20, 199, 212, 0.247);
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(15, 141, 163, 0.589);
+  }
+
+
   .hljs {
     color: #e9e9f4;
     background: #282936;

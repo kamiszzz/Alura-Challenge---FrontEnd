@@ -94,18 +94,26 @@
 
 }
 
+#codebox {
+    width: 96%;
+    margin-left: 2%;
+    margin-top: -9%;
+    height: 20rem;
+    overflow: scroll;
+    
+}
+
 .retangulo {
     margin-top: 5%;
     width: 752px;
-    height: 100%;
+    height: 59%;
    padding-bottom: 4%;
     background: #6BD1FF;
     border-radius: 8px;
 }
 
 .editordecodigo {
-
-    padding-right: 1%;
+ 
     height: 90%;
     width: 688px;
     background: #282936;
@@ -118,6 +126,7 @@
 }
 
 
+
 .preview {
     display: block;
     padding: 10px;
@@ -128,7 +137,6 @@
 }
 
 .botao {
-
     width: 52px;
     margin-bottom: 24px;
 
