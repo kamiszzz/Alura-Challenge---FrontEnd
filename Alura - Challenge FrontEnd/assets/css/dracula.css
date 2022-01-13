@@ -34,10 +34,17 @@ base0F  #00f769  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 
 pre code.hljs {
     display: block;
-    overflow-x: auto;
     padding: 1em;
+    overflow: scroll;
+    overflow-x:hidden;
   }
   
+  code {
+    overflow: scroll;
+    overflow-x:hidden;
+    
+
+  }
   code.hljs {
     padding: 3px 5px;
     width: 96%;
@@ -56,19 +63,20 @@ pre code.hljs {
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgba(20, 199, 212, 0.247);
+    background: rgba(20, 110, 212, 0.247);
     border-radius: 20px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgba(15, 141, 163, 0.589);
+    background: #5080fb6e;
   }
 
 
   .hljs {
     color: #e9e9f4;
     background: #282936;
+    
   }
   
   .hljs::selection,
