@@ -33,8 +33,6 @@ base0F  #00f769  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 */
 
 pre code.hljs {
-    display: block;
-    padding: 1em;
     overflow: scroll;
     overflow-x:hidden;
   }
@@ -43,13 +41,13 @@ pre code.hljs {
     overflow: scroll;
     overflow-x:hidden;
     
-
   }
   code.hljs {
+    height: 300px;
     padding: 3px 5px;
     width: 96%;
     margin-left: 2%;
-    margin-top: -9%;
+    margin-top: -7%;
     overflow: scroll;
     overflow-x:hidden;
   }
