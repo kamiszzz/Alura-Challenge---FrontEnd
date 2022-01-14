@@ -716,6 +716,7 @@ button {
     .code__divisao {
         display: flex;
         flex-direction: column;
+        margin-left: 20px;
        
     
     }
@@ -784,6 +785,10 @@ button {
     }
 
 /* ------------------------------------------------------------------------- INFORMAÇÕES ------------------------------------------------------------ */
+    .info__divisao {
+        margin-right: 20px;
+    }
+
     .seuprojeto {
         color: #ffffff;
         text-transform: uppercase;
