@@ -39,6 +39,9 @@
     
 }
 
+
+
+
 .editor {
    
     font-family: Inter;
@@ -141,8 +144,6 @@
     width: 652px;
 
 }
-
-
 
 
 .retangulo:hover~.info__comunidade {
