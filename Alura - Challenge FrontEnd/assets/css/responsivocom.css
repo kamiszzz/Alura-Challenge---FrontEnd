@@ -199,27 +199,51 @@
 
 
 
-.info__comunidade {
+.info__comunidade1 {
     display: none;
     background-color: rgba(0, 0, 0, 0.16);;
     width: 400px;
+    margin-left: 60px;
+
+}
+
+.info__comunidade2 {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.16);;
+    width: 400px;
+    margin-left: 60px;
+}
+
+.info__comunidade3 {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.16);;
+    width: 400px;
+    margin-left: -218%;
+    
+}
+
+.info__comunidade4 {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.16);;
+    width: 400px;
+    margin-left: -200%;
 
 }
 
 
-.retangulo1:hover~.info__comunidade {
+.retangulo1:hover~.info__comunidade1 {
     display: flex;
 }
 
-.retangulo2:hover~.info__comunidade {
+.retangulo2:hover~.info__comunidade2 {
     display: flex;
 }
 
-.retangulo3:hover~.info__comunidade {
+.retangulo3:hover~.info__comunidade3 {
     display: flex;
 }
 
-.retangulo4:hover~.info__comunidade {
+.retangulo4:hover~.info__comunidade4 {
     display: flex;
 }
 
