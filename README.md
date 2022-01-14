@@ -3,7 +3,7 @@
 Projeto desenvolvido durante o Alura Challenge de FrontEnd 
 >## OBJETIVO DO CHALLENGE:
 Construção de um editor de código online para compartilhar códigos de forma mais atraente.
-Para visualizar o projeto, 
+Para visualizar a página do projeto, https://kamiszzz.github.io/Alura-Challenge---FrontEnd/
 >## TECNOLOGIAS UTILIZADAS PARA DESENVOLVIMENTO DO PROJETO:
 <table>
  <tr>
@@ -20,10 +20,5 @@ Para visualizar o projeto,
 + Utilizar o trello 
 + Um pouco sobre o figma
 
->### PÁGINA DE EDIÇÃO
-
-![EDITORDECODPAGINA](https://user-images.githubusercontent.com/93733085/149207533-6a0e1eef-1b2d-4f47-862a-ebef65187250.jpeg)
-
->### PÁGINA DE COMUNIDADE
 
 
