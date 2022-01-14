@@ -6,20 +6,22 @@ const descricaoProjeto = document.querySelector('.js-descricao-projeto')
 const botaoPreview = document.querySelector('.botao-preview')
 const botaoSalvar = document.querySelector('.botao-salvar')
 
-botaoPreview.addEventListener('click', () => {
-    let codigo = areaDoCodigo.querySelector('code')
-    hljs.highlightBlock(codigo)
-})
 
-linguagem.addEventListener('change', () => {
-    mudaLinguagem()
-})
 
-function mudaLinguagem() {
-    let codigo = {'texto': areaDoCodigo.querySelector('code').innerText}
-    areaDoCodigo.innerHTML = `<code class="preview hljs ${linguagem.value}" contenteditable="true" aria-label="editor"></code>`
-    areaDoCodigo.firstChild.innerText = codigo.texto
-}
+// botaoPreview.addEventListener('click', () => {
+//     let codigo = areaDoCodigo.querySelector('code')
+//     hljs.highlightBlock(codigo)
+// })
+
+// linguagem.addEventListener('change', () => {
+//     mudaLinguagem()
+// })
+
+// function mudaLinguagem() {
+//     let codigo = {'texto': areaDoCodigo.querySelector('code').innerText}
+//     areaDoCodigo.innerHTML = `<code class="preview hljs ${linguagem.value}" contenteditable="true" aria-label="editor"></code>`
+//     areaDoCodigo.firstChild.innerText = codigo.texto
+// }
 
 
 botaoSalvar.addEventListener('click', () => {

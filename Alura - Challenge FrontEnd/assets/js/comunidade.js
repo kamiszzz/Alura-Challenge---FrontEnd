@@ -52,8 +52,8 @@ function criaCartao(titulo, descricao, codigo, cor) {
     novoCartao.innerHTML = cartao
     return novoCartao
 
-    
-    
+
+
 
 }
 
@@ -61,8 +61,9 @@ function mostraProjetos() {
 
     const todosProjetos = JSON.parse(localStorage.getItem('key')) || []
     console.log(todosProjetos)
-    todosProjetos.forEach(projeto => { listaProjetos.appendChild(criaCartao( projeto.nomeDoProjeto, projeto.descricaoDoProjeto, projeto.codigo, projeto.color))
-        
+    todosProjetos.forEach(projeto => {
+        listaProjetos.appendChild(criaCartao(projeto.nomeDoProjeto, projeto.descricaoDoProjeto, projeto.codigo, projeto.color))
+
     });
 }
 
