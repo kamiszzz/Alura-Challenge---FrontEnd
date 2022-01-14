@@ -43,7 +43,7 @@
 
 
 .editor {
-   
+   width: 130px;
     font-family: Inter;
     
   
@@ -150,7 +150,7 @@
 }
 
 .retangulo3 {
-    margin-top: 530px;
+    margin-top: 570px;
     margin-left: -1090px;
     width: 500px;
     height: 366px;
@@ -171,7 +171,7 @@
 }
 
 .retangulo4 {
-    margin-top: 530px;
+    margin-top: 570px;
     margin-left: -525px;
     width: 500px;
     height: 366px;
@@ -202,12 +202,24 @@
 .info__comunidade {
     display: none;
     background-color: rgba(0, 0, 0, 0.16);;
-    width: 652px;
+    width: 400px;
 
 }
 
 
-.retangulo:hover~.info__comunidade {
+.retangulo1:hover~.info__comunidade {
+    display: flex;
+}
+
+.retangulo2:hover~.info__comunidade {
+    display: flex;
+}
+
+.retangulo3:hover~.info__comunidade {
+    display: flex;
+}
+
+.retangulo4:hover~.info__comunidade {
     display: flex;
 }
 
