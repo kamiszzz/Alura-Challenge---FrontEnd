@@ -2,50 +2,43 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alura Challenge - FrontEnd</title>
-  <link rel="shortcut icon" href="./assets/img/aluraicon.png" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Roboto+Mono&display=swap"
-    rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/css/darcula.css">
-  <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/responsividade.css">
-  <link rel="stylesheet" href="./assets/css/header.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge - FrontEnd</title>
+    <link rel="shortcut icon" href="./assets/img/aluraicon.png" type="image/x-icon">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Roboto+Mono&display=swap"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="./assets/css/dracula.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsividade.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
 </head>
 
 
-<body spellcheck="false">
-  <!-- ---------------------------------------------------------------- CABEÇALHO DESKTOP----------------------------------------------------------------- -->
-  <header class="cabecalho">
-    <img src="./assets/img/Logo.svg" alt="Logotipo da Alura" class="cabecalho__logo">
-    <input class="cabecalho__busca" type="search" placeholder="Busque por algo">
-    <p class="cabecalho__perfil">Harry</p>
+<body>
+<!-- ---------------------------------------------------------------- CABEÇALHO DESKTOP----------------------------------------------------------------- -->
+    <header class="cabecalho">
+        <img src="./assets/img/Logo.svg" alt="Logotipo da Alura" class="cabecalho__logo">
+        <input class="cabecalho__busca" type="search" placeholder="Busque por algo">
+        <p class="cabecalho__perfil">Harry</p>
 
-    <!-- ------------------------------------------------------- CABEÇALHO MOBILE------------------------------------------------------------------------- -->
-    <button class="cabecalho__search" aria-label="Search"><i><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M19.7263 17.2913L15.8322 13.3971C15.6564 13.2214 15.4182 13.1237 15.1682 13.1237H14.5315C15.6096 11.7449 16.2501 10.0107 16.2501 8.12421C16.2501 3.63636 12.6138 0 8.12592 0C3.63807 0 0.00170898 3.63636 0.00170898 8.12421C0.00170898 12.612 3.63807 16.2484 8.12592 16.2484C10.0125 16.2484 11.7467 15.6079 13.1254 14.5298V15.1665C13.1254 15.4165 13.2231 15.6547 13.3988 15.8305L17.293 19.7246C17.6601 20.0918 18.2538 20.0918 18.6171 19.7246L19.7224 18.6193C20.0896 18.2521 20.0896 17.6584 19.7263 17.2913ZM8.12592 13.1237C5.36447 13.1237 3.1264 10.8896 3.1264 8.12421C3.1264 5.36276 5.36056 3.12469 8.12592 3.12469C10.8874 3.12469 13.1254 5.35885 13.1254 8.12421C13.1254 10.8857 10.8913 13.1237 8.12592 13.1237Z"
-            fill="white" />
+<!-- ------------------------------------------------------- CABEÇALHO MOBILE------------------------------------------------------------------------- -->
+        <button class="cabecalho__search" aria-label="Search"><i><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M19.7263 17.2913L15.8322 13.3971C15.6564 13.2214 15.4182 13.1237 15.1682 13.1237H14.5315C15.6096 11.7449 16.2501 10.0107 16.2501 8.12421C16.2501 3.63636 12.6138 0 8.12592 0C3.63807 0 0.00170898 3.63636 0.00170898 8.12421C0.00170898 12.612 3.63807 16.2484 8.12592 16.2484C10.0125 16.2484 11.7467 15.6079 13.1254 14.5298V15.1665C13.1254 15.4165 13.2231 15.6547 13.3988 15.8305L17.293 19.7246C17.6601 20.0918 18.2538 20.0918 18.6171 19.7246L19.7224 18.6193C20.0896 18.2521 20.0896 17.6584 19.7263 17.2913ZM8.12592 13.1237C5.36447 13.1237 3.1264 10.8896 3.1264 8.12421C3.1264 5.36276 5.36056 3.12469 8.12592 3.12469C10.8874 3.12469 13.1254 5.35885 13.1254 8.12421C13.1254 10.8857 10.8913 13.1237 8.12592 13.1237Z" fill="white"/>
         </svg></i></button>
-    <button class="cabecalho__menu" aria-label="Menu"><i><svg width="20" height="18" viewBox="0 0 20 18" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M0.714286 3.46429H19.2857C19.6802 3.46429 20 3.14451 20 2.75V0.964286C20 0.569777 19.6802 0.25 19.2857 0.25H0.714286C0.319777 0.25 0 0.569777 0 0.964286V2.75C0 3.14451 0.319777 3.46429 0.714286 3.46429ZM0.714286 10.6071H19.2857C19.6802 10.6071 20 10.2874 20 9.89286V8.10714C20 7.71263 19.6802 7.39286 19.2857 7.39286H0.714286C0.319777 7.39286 0 7.71263 0 8.10714V9.89286C0 10.2874 0.319777 10.6071 0.714286 10.6071ZM0.714286 17.75H19.2857C19.6802 17.75 20 17.4302 20 17.0357V15.25C20 14.8555 19.6802 14.5357 19.2857 14.5357H0.714286C0.319777 14.5357 0 14.8555 0 15.25V17.0357C0 17.4302 0.319777 17.75 0.714286 17.75Z"
-            fill="white" />
-        </svg>
+      <button class="cabecalho__menu" aria-label="Menu"><i><svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.714286 3.46429H19.2857C19.6802 3.46429 20 3.14451 20 2.75V0.964286C20 0.569777 19.6802 0.25 19.2857 0.25H0.714286C0.319777 0.25 0 0.569777 0 0.964286V2.75C0 3.14451 0.319777 3.46429 0.714286 3.46429ZM0.714286 10.6071H19.2857C19.6802 10.6071 20 10.2874 20 9.89286V8.10714C20 7.71263 19.6802 7.39286 19.2857 7.39286H0.714286C0.319777 7.39286 0 7.71263 0 8.10714V9.89286C0 10.2874 0.319777 10.6071 0.714286 10.6071ZM0.714286 17.75H19.2857C19.6802 17.75 20 17.4302 20 17.0357V15.25C20 14.8555 19.6802 14.5357 19.2857 14.5357H0.714286C0.319777 14.5357 0 14.8555 0 15.25V17.0357C0 17.4302 0.319777 17.75 0.714286 17.75Z" fill="white"/>
+          </svg>
       </i></button>
-
-    <div class="menu-lateral">
-      <a href="./index.html" id="editor">
+    
+        <div class="menu-lateral">
+          <a href="./index.html" id="editor">
         <div class="menuicon">
           <img src="./assets/img/IconCode.svg" class="img__code">
-          <p class="link">Editor de Código </p>
+          <p class="link">Editor de Código </p>   
         </div>
       </a>
 
@@ -56,103 +49,112 @@
         </div>
       </a>
 
-      <div class="perfil">
-        <p class="menu__perfil">Harry</p>
-      </div>
-
-    </div>
-
-    <input class="menu__busca" type="search" placeholder="Busque por algo">
-  </header>
-  <!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->
-  <main class="container">
-
-    <!-- ---------------------------------------------------------- MENU DESKTOP---------------------------------------------------------------------------- -->
-
-    <div class="menu__navegacao">
-      <h2 class="menu__titulo">Menu</h2>
-      <ul class="menu__lista">
-        <li>
-
-          <a href="./index.html">
-            <div class="menuicon">
-              <img src="./assets/img/IconCode.svg" alt="Editor de código" class="iconeditor" />
-              <p class="editor">Editor de código</p>
-            </div>
-
-          </a>
-
-          <a href="./comunidade.html">
-            <div class="menuicon">
-              <img src="./assets/img/IconComunidade.svg" alt="Comunidade" class="iconcomunidade" />
-              <p class="comunidade">Comunidade</p>
-            </div>
-
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- ---------------------------------------------------------------- EDITOR DE CÓDIGO ----------------------------------------------------------------- -->
-
-    <div class="code__divisao">
-      <section id="conteudo" class="retangulo">
-        <div class="editordecodigo">
-
-          <img class="botao" src="./assets/img/mac_buttons (1).svg">
-
-          <div class="codigo-wrapper js-codigo-wrapper">
-            <code class="preview hljs" id=codebox contenteditable="true" aria-label="editor"></code>
-          </div>
-
+        <div class="perfil">
+          <p class="menu__perfil">Harry</p>
         </div>
-      </section>
+        
+        </div>
 
-      <div class="botoes-wrapper">
-        <button class="botao botao-preview" id="highlight">Visualizar com o highlight</button>
-      </div>
-    </div>
+        <input class="menu__busca" type="search" placeholder="Busque por algo">
+    </header>
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <main class="container">
 
+<!-- ---------------------------------------------------------- MENU DESKTOP---------------------------------------------------------------------------- -->
+  
+        <div class="menu__navegacao">
+          <h2 class="menu__titulo">Menu</h2>
+          <ul class="menu__lista">
+            <li>
+  
+            <a href="./index.html">
+              <div class="menuicon">
+                <img src="./assets/img/IconCode.svg"
+                  alt="Editor de código" class="iconeditor"/>
+                  <p class="editor">Editor de código</p>
+              </div>
+                
+            </a>
+  
+            <a href="./comunidade.html">
+                <div class="menuicon">
+                    <img src="./assets/img/IconComunidade.svg"
+                      alt="Comunidade" class="iconcomunidade"/>
+                      <p class="comunidade">Comunidade</p>
+                </div>
+                 
+            </a>
+            </li>
+          </ul>
+        </div>
+      
+<!-- ---------------------------------------------------------------- EDITOR DE CÓDIGO ----------------------------------------------------------------- -->
+      
+        <div class="code__divisao">
+          <section id="conteudo" class="retangulo">
+            <div class="editordecodigo">
+      
+                <img class="botao" src="./assets/img/mac_buttons (1).svg">
+      
+                <div class="codigo-wrapper">
+                <code id=codebox class="preview hljs" contenteditable="true" aria-label="Editor de código">function teste() {}</code>
+                 </div>
+                
+            </div>
+        </section>
+          <button class="highlight">Visualizar com o highlight</button>
+        </div>
 
-    <!-- --------------------------------------------------------------------- INFORMAÇÕES ----------------------------------------------------------------------- -->
+      
+<!-- --------------------------------------------------------------------- INFORMAÇÕES ----------------------------------------------------------------------- -->
+      
+        <div class="info__divisao">
+          <h2 class="seuprojeto">Seu projeto</h2>
+          <input 
+            class="input"
+            type="text"
+            id="nomedoprojeto"
+            placeholder="Nome do seu projeto"
+            data-title
+          /> 
+  
+          <textarea
+            class="input"
+            id="descricaoprojeto"
+            rows="5"
+            placeholder="Descrição do projeto"
+            data-description
+          ></textarea>
+  
+          <div class="codigopersonalizado">
+            <h2 class="personalizacao">Personalização</h2>
+            <select name="linguagem" id="linguagem" class="linguagem">
+                <option value="JavaScript">JavaScript</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+            </select>
+  
+          <!-- Campo do editor de cor. -->
+            <input
+              id="editordecor"
+              type="color"
+              value="#6BD1FF"
+              class="projectcolor"
+              data-color>
+            </div>
+  
+           <button data-save-btn class="projectsave">
+              Salvar projeto
+           </button>
+        </div>
+      
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <script src="./assets/js/highlight.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+    <script src="./assets/js/colorpick.js"></script>
 
-    <div class="info__divisao">
-
-      <section class="cartao">
-        <label for="titulo-projeto" id="seuprojeto" class="label">Seu Projeto</label>
-        <input type="text" id="titulo-projeto" class="input js-titulo-projeto" placeholder="Nome do seu projeto">
-        <input type="text" id="descricao-projeto" class="input js-descricao-projeto"
-          placeholder="Descrição do seu projeto">
-        <label for="linguagem" id="personalizar" class="label">Personalização</label>
-        <select name="linguagem" id="linguagem" class="input js-linguagem">
-          <option value="javascript">JavaScript</option>
-          <option value="html">HTML</option>
-          <option value="css">CSS</option>
-        </select>
-
-
-
-        <!-- Campo do editor de cor. -->
-        <input id="editordecor" type="color" value="#6BD1FF" class="projectcolor" data-color>
-
-        <button class="botao botao-salvar" id="salvar">Salvar Projeto</button>
-    </div>
-
-
-   
-
-    </section>
-    </div>
-
-  </main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>   
-  <script src="./assets/js/colorpick.js"></script>
-
-  <script src="assets/js/menu.js"></script>
-  <script src="assets/js/busca.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
-  <script src="assets/js/index.js"></script>
-
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/busca.js"></script>
 </body>
-
 </html>
