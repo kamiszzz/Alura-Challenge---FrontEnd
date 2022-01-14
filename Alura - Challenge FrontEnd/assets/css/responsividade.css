@@ -19,7 +19,8 @@
 .menu__navegacao {
     display: flex;
     flex-direction: column;
-    padding: 16px;
+    padding: 20px;
+    margin-right: 165px;
     
   
   

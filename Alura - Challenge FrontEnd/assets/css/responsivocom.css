@@ -146,6 +146,9 @@
 
 }
 
+
+
+
 .retangulo:hover~.info__comunidade {
     display: flex;
 }
