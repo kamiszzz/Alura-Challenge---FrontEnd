@@ -407,7 +407,7 @@
     
     .retangulo {
       
-        width: 100%;
+        width: 343px;
         height: 402px;
        
         background: #6BD1FF;
@@ -417,7 +417,7 @@
     .editordecodigo {
     
       
-        height: 95%;
+        height: 354px;
         width: 295px;
         background: #141414;
         box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
