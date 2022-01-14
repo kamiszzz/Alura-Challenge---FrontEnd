@@ -86,6 +86,11 @@
 }
 
 /* ------------------------------------------- E D I T O R  D E  C Ó D I G O - D E S K T O P--------------------------------------------------------- */
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .code__divisao {
     display: flex;
@@ -100,7 +105,7 @@
     margin-top: -9%;
     height: 250px;
     overflow: scroll;
-    
+
 }
 
 .retangulo {
@@ -113,7 +118,8 @@
 }
 
 .editordecodigo {
- 
+
+    padding-right: 1%;
     height: 90%;
     width: 688px;
     background: #282936;
@@ -126,7 +132,6 @@
 }
 
 
-
 .preview {
     display: block;
     padding: 10px;
@@ -137,13 +142,14 @@
 }
 
 .botao {
+
     width: 52px;
     margin-bottom: 24px;
 
 }
 
-.highlight {
-    width: 752px;
+#highlight {
+    width: 100%;
     height: 80px;
     border-radius: 8px;
     background: rgba(80, 128, 251, 0.349);
@@ -160,7 +166,7 @@
   
 }
 
-.highlight:hover {
+#highlight:hover {
     opacity: 1.0;
     transition: opacity .55s ease-in-out;
     -moz-transition: opacity .55s ease-in-out;
@@ -172,12 +178,24 @@
     flex-direction: column;
     padding: 16px;
    
+
+   
   
     
 }
 
 
-.seuprojeto {
+.cartão {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+   
+  
+    
+}
+
+
+#seuprojeto {
     color: #ffffff;
     text-transform: uppercase;
     line-height: 18px;
@@ -187,9 +205,9 @@
     font-size: 12px;
 }
 
-#nomedoprojeto {
+#titulo-projeto {
    
-    padding-left: 2%;
+   
     font-family: Inter;
     color: #ffffff;
     width: 100%;
@@ -201,10 +219,11 @@
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
     margin-top: 16px;
+    padding: 16px;
+
 }
 
-#descricaoprojeto {
-    padding-left: 2%;
+#descricao-projeto {
     padding-top: 4%;
     font-family: Inter;
     color: #ffffff;
@@ -217,9 +236,10 @@
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
     margin-top: 16px;
+    padding: 16px;
 }
 
-.personalizacao {
+#personalizar {
     color: #ffffff;
     text-transform: uppercase;
     line-height: 18px;
@@ -287,7 +307,7 @@ option:checked {
       
 }
     
-.projectsave {
+#salvar {
     width: calc(100% - 9px);
     height: 56px;
     margin-left: 0%;
@@ -435,7 +455,7 @@ button {
       
         height: 95%;
         width: 90%;
-        background: #282936;
+        background: #141414;
         box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
         border-radius: 8px;
         white-space: pre-wrap;
@@ -718,7 +738,7 @@ button {
       
         height: 95%;
         width: 80%;
-        background: #282936;
+        background: #141414;
         box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
         border-radius: 8px;
         white-space: pre-wrap;
@@ -922,4 +942,5 @@ button {
         
              
 
-    }
+    
+}
