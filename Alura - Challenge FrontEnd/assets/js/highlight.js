@@ -1,6 +1,6 @@
-const linguagem = document.querySelector ('.js-linguagem')
+const linguagem = document.querySelector ('.linguagem')
 const areaDoCodigo = document.querySelector ('.codigo-wrapper')
-const botao = document.querySelector ('.botao-preview')
+const botao = document.querySelector ('.highlight')
 
 function aplicaHighlight() {
     const codigo = areaDoCodigo.innerText
