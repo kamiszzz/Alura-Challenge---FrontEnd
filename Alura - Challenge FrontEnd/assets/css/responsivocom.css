@@ -81,6 +81,100 @@
     justify-content: space-between;
 }
 
+.todos-projetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+ 
+}
+
+.code__divisao {
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+#codebox {
+    width: 96%;
+    margin-left: 2%;
+    margin-top: -9%;
+    height: 250px;
+    overflow: scroll;
+
+}
+
+.retangulo {
+    margin-top: 5%;
+    width: 652px;
+    height: 366px;
+   padding-bottom: 4%;
+    background: #6BD1FF;
+    border-radius: 8px;
+}
+
+.editordecodigo {
+
+    height: 302px;
+    width: 588px;
+    background: #282936;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
+    border-radius: 8px;
+    white-space: pre-wrap;
+    margin: 32px;
+
+    
+}
+
+.botao {
+
+    width: 52px;
+    margin-bottom: 24px;
+
+}
+
+
+
+.info__comunidade {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.16);;
+    width: 652px;
+
+}
+
+
+
+
+.retangulo:hover~.info__comunidade {
+    display: flex;
+}
+
+.titulo__projeto, .descricao__projeto, .quantidade {
+    font-family: Inter;
+    color: rgba(255, 255, 255);
+    font-style: normal;
+}
+
+.titulo__projeto {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 31px;
+    margin-bottom: 0.5rem;
+}
+
+.descricao__projeto {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+.icones__comunidade {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 }
 
 @media  screen and (max-width: 900px) {
@@ -174,7 +268,103 @@
         justify-content: space-between;
     }
 
+    .todos-projetos {
+        display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+    }
+
+    .code__divisao {
+        display: flex;
+        flex-direction: column;
+       
+    
+    }
+    
+    .retangulo {
+
+        width: 100%;
+        height: 342px;
+
+       
+        background: #6BD1FF;
+        border-radius: 8px;
+    }
+    
+    .editordecodigo {
+    
+      
+        height: 95%;
+        width: 90%;
+        background: #141414;
+        box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
+        border-radius: 8px;
+        white-space: pre-wrap;
+        margin: 32px;
+        margin-right: 20px;
+    
+        
+    }
+
+    .preview {
+        display: block;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        height: 100%;
+        white-space: pre-wrap;
+    }
+    
+    .botao {
+    
+        width: 52px;
+        margin-bottom: 24px;
+    
+    }
+
+    .info__comunidade {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.16);;
+        width: 100%;
+    
+    }
+    
+    .retangulo:hover~.info__comunidade {
+        display: flex;
+    }
+    
+    .titulo__projeto, .descricao__projeto, .quantidade {
+        font-family: Inter;
+        color: rgba(255, 255, 255);
+        font-style: normal;
+    }
+    
+    .titulo__projeto {
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 31px;
+        margin-bottom: 0.5rem;
+    }
+    
+    .descricao__projeto {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    
+    
+    .icones__comunidade {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    
+ 
+
 }
+
+
 
 @media  screen and (max-width: 500px) {
     .cabecalho__search {
@@ -222,4 +412,92 @@
         flex-direction: column;
         justify-content: space-between;
     }
+
+    .code__divisao {
+        display: flex;
+        flex-direction: column;
+        
+       
+    
+    }
+    
+    .retangulo {
+      
+        width: 100%;
+        height: 402px;
+       
+        background: #6BD1FF;
+        border-radius: 8px;
+    }
+    
+    .editordecodigo {
+    
+      
+        height: 95%;
+        width: 295px;
+        background: #141414;
+        box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
+        border-radius: 8px;
+        white-space: pre-wrap;
+        margin-left: 18px;
+    }
+
+    .preview {
+        display: block;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        height: 100%;
+        white-space: pre-wrap;
+    }
+    
+    .botao {
+    
+        width: 52px;
+        margin-bottom: 24px;
+    
+    }
+
+    .info__comunidade {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.16);;
+        width: 343px;
+    
+    }
+    
+    .retangulo:hover~.info__comunidade {
+        display: flex;
+    }
+    
+    .titulo__projeto, .descricao__projeto, .quantidade {
+        font-family: Inter;
+        color: rgba(255, 255, 255);
+        font-style: normal;
+    }
+    
+    .titulo__projeto {
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 31px;
+        margin-bottom: 0.5rem;
+    }
+    
+    .descricao__projeto {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    
+    
+    .icones__comunidade {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    
+    
+
+
+
 }
