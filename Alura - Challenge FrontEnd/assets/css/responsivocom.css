@@ -1,5 +1,7 @@
-/* @media  screen and (max-width: 1700px) { */
+/* ------------------------------------------------------------- D E S K T O P------------------------------------------------------------------ */
 
+
+@media  screen and (max-width: 1700px) {
     .container {
         display: flex;
         flex-direction: row;
@@ -18,11 +20,15 @@
     display: flex;
     flex-direction: column;
     padding: 16px;
+    
   
   
 }
 
+/* ------------------------------------------------------------- M E N U - D E S K T O P-------------------------------------------------------------- */
+
 .menu__titulo {
+    margin-left: 2%;
     color: white;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -52,6 +58,9 @@
    
    
 }
+.iconeditor:checked {
+    opacity: 1.0;
+}
 
 .iconeditor {
     margin-right: 8px;
@@ -75,6 +84,7 @@
 }
 
 
+/* ------------------------------------------- E D I T O R  D E  C Ó D I G O - D E S K T O P--------------------------------------------------------- */
 .todos-projetos {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -82,41 +92,41 @@
  
 }
 
+.code__divisao {
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+#codebox {
+    width: 96%;
+    margin-left: 2%;
+    margin-top: -9%;
+    height: 250px;
+    overflow: scroll;
+
+}
 
 .retangulo {
     margin-top: 5%;
-    width: 620px;
-    height: 288px;
-   
+    width: 652px;
+    height: 366px;
+   padding-bottom: 4%;
     background: #6BD1FF;
     border-radius: 8px;
-    margin-right: 20px;
-
-   
 }
 
 .editordecodigo {
 
-   
-    height: 240px;
-    width: 572px;
+    height: 302px;
+    width: 588px;
     background: #282936;
     box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
     border-radius: 8px;
     white-space: pre-wrap;
-    margin-right: 10px;
-   
+    margin: 32px;
 
-    
-}
-
-
-.preview {
-    display: block;
-    padding: 10px;
-    box-sizing: border-box;
-    border-radius: 8px;
-    white-space: pre-wrap;
     
 }
 
@@ -127,10 +137,12 @@
 
 }
 
+
+
 .info__comunidade {
     display: none;
     background-color: rgba(0, 0, 0, 0.16);;
-    width: 620px;
+    width: 652px;
 
 }
 
@@ -164,12 +176,15 @@
     flex-direction: row;
 }
 
-/* } */
 
-/* @media  screen and (max-width: 900px) { */
-    .cabecalho__search {
-        display: none;
+/* -------------------------------------------------------------------------------------- TABLET ------------------------------------------------------ */
+
+@media  screen and (max-width: 900px) {
+      
+    .cabecalho__busca {
+        display: flex;
     }
+        
 
     .cabecalho__menu {
         display: flex;
@@ -189,7 +204,7 @@
     .menu__navegacao {
         display:none;
     }
-
+/* ---------------------------------------------------- M E N U - T A B L E T----------------------------------------------------------------------- */
 
     .menu-lateral--ativo {
         display: flex;
@@ -206,10 +221,14 @@
 
     }
 
+
     .container {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        padding: 16px;
     }
+   
 
     .cabecalho__search {
         display: flex;
@@ -231,67 +250,59 @@
     .cabecalho__perfil {
         visibility: hidden;
     }
-    .menu-lateral--ativo {
-        display: flex;
-        right: 0;
-        transition: .25s;
-        position: absolute;
-        top: 100px;
-        margin-right: 10px;
-    }
+
 
     .menu__navegacao {
         display:none;
     }
 
-    .container {
+
+    /* ------------------------------------------------- E D I T O R  D E  C Ó D I G O - T A B L E T----------------------------------------------- */
+    .todos-projetos {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 16px;
+       flex-direction: column;
+       justify-content: space-between;
     }
 
-    .code__comunidade {
+    .code__divisao {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+       
+    
     }
-
+    
     .retangulo {
-        margin-top: 5%;
-        width: 704px;
+
+        width: 100%;
         height: 342px;
+
        
         background: #6BD1FF;
         border-radius: 8px;
-        margin-right: 20px;
-    
-       
     }
     
     .editordecodigo {
     
-       
-        height: 640px;
-        width: 302px;
-        background: #282936;
+      
+        height: 95%;
+        width: 90%;
+        background: #141414;
         box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
         border-radius: 8px;
         white-space: pre-wrap;
-        /* margin-right: 10px; */
-       
+        margin: 32px;
+        margin-right: 20px;
     
         
     }
-    
-    
+
     .preview {
         display: block;
         padding: 10px;
         box-sizing: border-box;
         border-radius: 8px;
+        height: 100%;
         white-space: pre-wrap;
-        
     }
     
     .botao {
@@ -300,11 +311,11 @@
         margin-bottom: 24px;
     
     }
-    
+
     .info__comunidade {
         display: none;
         background-color: rgba(0, 0, 0, 0.16);;
-        width: 704px;
+        width: 100%;
     
     }
     
@@ -338,11 +349,12 @@
         flex-direction: row;
     }
     
-    }
+    
+ 
 
-/* } */
-
-/* @media  screen and (max-width: 500px) { */
+}
+/* ---------------------------------------------------------------------M O B I L E----------------------------------------------------------------------------- */
+@media  screen and (max-width: 500px) {
     .cabecalho__search {
         display: flex;
     }
@@ -363,6 +375,8 @@
     .cabecalho__perfil {
         visibility: hidden;
     }
+
+    /* ---------------------------------------------------------- M E N U - M O B I L E ------------------------------------------------------------- */
     .menu-lateral--ativo {
         display: flex;
         right: 0;
@@ -382,12 +396,91 @@
         justify-content: space-between;
         padding: 16px;
     }
-
-    .code__comunidade {
+/* ----------------------------------------------------- E D I T O R  D E  C Ó D I G O - M O B I L E ------------------------------------------------- */
+    .code__divisao {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        
+       
+    
     }
-/* } */
+    
+    .retangulo {
+      
+        width: 343px;
+        height: 402px;
+       
+        background: #6BD1FF;
+        border-radius: 8px;
+    }
+    
+    .editordecodigo {
+    
+      
+        height: 354px;
+        width: 295px;
+        background: #141414;
+        box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
+        border-radius: 8px;
+        white-space: pre-wrap;
+        margin-left: 18px;
+    }
+
+    .preview {
+        display: block;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        height: 100%;
+        white-space: pre-wrap;
+    }
+    
+    .botao {
+    
+        width: 52px;
+        margin-bottom: 24px;
+    
+    }
+
+    .info__comunidade {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.16);;
+        width: 343px;
+    
+    }
+    
+    .retangulo:hover~.info__comunidade {
+        display: flex;
+    }
+    
+    .titulo__projeto, .descricao__projeto, .quantidade {
+        font-family: Inter;
+        color: rgba(255, 255, 255);
+        font-style: normal;
+    }
+    
+    .titulo__projeto {
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 31px;
+        margin-bottom: 0.5rem;
+    }
+    
+    .descricao__projeto {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    
+    
+    .icones__comunidade {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    
+    
 
 
+}

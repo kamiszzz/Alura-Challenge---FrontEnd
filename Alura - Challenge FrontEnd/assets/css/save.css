@@ -1,0 +1,402 @@
+
+.todos-projetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+ 
+}
+
+
+/* @media  screen and (max-width: 1700px) { */
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+.cabecalho__search {
+    display: none;
+}
+
+.cabecalho__menu {
+    display: none;
+}
+
+.menu__navegacao {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  
+  
+}
+
+.menu__titulo {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: Inter;
+    font-weight: 100;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.menuicon {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.editor {
+   
+    font-family: Inter;
+    
+  
+}
+  
+.comunidade {
+    
+    font-family: Inter;
+   
+   
+}
+
+.iconeditor {
+    margin-right: 8px;
+    opacity: 0.5;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    
+}
+
+.iconeditor:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+  
+.iconcomunidade {
+    margin-right: 8px;
+   
+}
+
+
+.todos-projetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+ 
+}
+
+
+.retangulo {
+    margin-top: 5%;
+    width: 620px;
+    height: 288px;
+   
+    background: #6BD1FF;
+    border-radius: 8px;
+    margin-right: 20px;
+
+   
+}
+
+.editordecodigo {
+
+   
+    height: 240px;
+    width: 572px;
+    background: #282936;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
+    border-radius: 8px;
+    white-space: pre-wrap;
+    margin-right: 10px;
+   
+
+    
+}
+
+
+.preview {
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    
+}
+
+.botao {
+
+    width: 52px;
+    margin-bottom: 24px;
+
+}
+
+.info__comunidade {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.16);;
+    width: 620px;
+
+}
+
+.retangulo:hover~.info__comunidade {
+    display: flex;
+}
+
+.titulo__projeto, .descricao__projeto, .quantidade {
+    font-family: Inter;
+    color: rgba(255, 255, 255);
+    font-style: normal;
+}
+
+.titulo__projeto {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 31px;
+    margin-bottom: 0.5rem;
+}
+
+.descricao__projeto {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+.icones__comunidade {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+/* } */
+
+/* @media  screen and (max-width: 900px) { */
+    .cabecalho__search {
+        display: none;
+    }
+
+    .cabecalho__menu {
+        display: flex;
+    
+    }
+
+
+    .cabecalho__perfil {
+        display:none;
+    }
+
+    .cabecalho__busca {
+        display: flex;
+        
+    }
+
+    .menu__navegacao {
+        display:none;
+    }
+
+
+    .menu-lateral--ativo {
+        display: flex;
+        right: 0;
+        transition: .25s;
+        position: absolute;
+        top: 100px;
+        margin-right: 10px;
+    }
+
+
+    .menu__busca--ativo {
+        display: flex;
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalho__search {
+        display: flex;
+    }
+
+    .cabecalho__menu {
+        display: flex;
+        margin-left: 36px;
+    }
+
+    .cabecalho__busca {
+        display: none;
+    }
+
+    .fotousuario {
+        display: none;
+    }
+
+    .cabecalho__perfil {
+        visibility: hidden;
+    }
+    .menu-lateral--ativo {
+        display: flex;
+        right: 0;
+        transition: .25s;
+        position: absolute;
+        top: 100px;
+        margin-right: 10px;
+    }
+
+    .menu__navegacao {
+        display:none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 16px;
+    }
+
+    .code__comunidade {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .retangulo {
+        margin-top: 5%;
+        width: 704px;
+        height: 342px;
+       
+        background: #6BD1FF;
+        border-radius: 8px;
+        margin-right: 20px;
+    
+       
+    }
+    
+    .editordecodigo {
+    
+       
+        height: 640px;
+        width: 302px;
+        background: #282936;
+        box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
+        border-radius: 8px;
+        white-space: pre-wrap;
+        /* margin-right: 10px; */
+       
+    
+        
+    }
+    
+    
+    .preview {
+        display: block;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        white-space: pre-wrap;
+        
+    }
+    
+    .botao {
+    
+        width: 52px;
+        margin-bottom: 24px;
+    
+    }
+    
+    .info__comunidade {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.16);;
+        width: 704px;
+    
+    }
+    
+    .retangulo:hover~.info__comunidade {
+        display: flex;
+    }
+    
+    .titulo__projeto, .descricao__projeto, .quantidade {
+        font-family: Inter;
+        color: rgba(255, 255, 255);
+        font-style: normal;
+    }
+    
+    .titulo__projeto {
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 31px;
+        margin-bottom: 0.5rem;
+    }
+    
+    .descricao__projeto {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    
+    
+    .icones__comunidade {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    }
+
+/* } */
+
+/* @media  screen and (max-width: 500px) { */
+    .cabecalho__search {
+        display: flex;
+    }
+
+    .cabecalho__menu {
+        display: flex;
+        margin-left: 36px;
+    }
+
+    .cabecalho__busca {
+        display: none;
+    }
+
+    .fotousuario {
+        display: none;
+    }
+
+    .cabecalho__perfil {
+        visibility: hidden;
+    }
+    .menu-lateral--ativo {
+        display: flex;
+        right: 0;
+        transition: .25s;
+        position: absolute;
+        top: 100px;
+        margin-right: 10px;
+    }
+
+    .menu__navegacao {
+        display:none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 16px;
+    }
+
+    .code__comunidade {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+/* } */
+
+
