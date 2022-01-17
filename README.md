@@ -22,3 +22,5 @@ Para visualizar a página do projeto, https://kamiszzz.github.io/Alura-Challenge
 
 
 
+
+![WhatsApp Image 2022-01-17 at 14 20 25](https://user-images.githubusercontent.com/93733085/149814024-229fe2f5-b408-435a-95f6-e1e784db81dd.jpeg)
