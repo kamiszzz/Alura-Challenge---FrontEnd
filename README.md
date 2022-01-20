@@ -4,7 +4,8 @@ Projeto desenvolvido durante o Alura Challenge de FrontEnd
 >## OBJETIVO DO CHALLENGE:
 Construção de um editor de código online para compartilhar códigos de forma mais atraente.
 Para visualizar a página do projeto, https://kamiszzz.github.io/Alura-Challenge---FrontEnd/Alura - Challenge FrontEnd
->## TECNOLOGIAS UTILIZADAS PARA DESENVOLVIMENTO DO PROJETO:
+
+https://kamiszzz.github.io/Alura-Challenge---FrontEnd/Alura%20-%20Challenge%20FrontEnd/index.html (para visualiza a página, link correto)
 <table>
  <tr>
   <td>HTML5</td>
